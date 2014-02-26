@@ -1,4 +1,12 @@
-InstagramCamera
-===============
+## InstagramCamera
 
-iOS camera engine, features recoder video and photo capture, base on instagram App.
+'InstagramCamera' is an iOS camera engine that supports recoder video and photo capture. It is compatible with both iOS 6 and iOS 7. Pause and resume video capture is also possible without having to use a touch button as the sample project provides.
+
+
+## License
+
+InstagramCamera is acailable under the MIT license, see the LICENSE file for more information.
+
+## Instructions
+         
+If you use the open source components in your project, please [Email us](mailto:xhzengAIB@gmail.com?subject=From%20GitHub%20InstagramCamera) to tell us the name of your application, otherwise the consequence is proud.
