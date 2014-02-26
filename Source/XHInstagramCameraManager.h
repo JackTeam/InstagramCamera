@@ -78,7 +78,7 @@ typedef NS_ENUM(NSInteger, XHCameraFocusMode) {
 @property (nonatomic, assign) XHWhiteBalanceMode whiteBalanceMode;
 @property (nonatomic, assign, readonly) NSUInteger cameraCount;
 
-- (void)setCameraMaxScale:(CGFloat)maxScale;
+// Camera Infomation
 - (CGFloat)cameraMaxScale;
 - (BOOL)cameraToggle;
 - (BOOL)hasMultipleCameras;
@@ -87,15 +87,27 @@ typedef NS_ENUM(NSInteger, XHCameraFocusMode) {
 - (BOOL)hasFocus;
 - (BOOL)hasExposure;
 - (BOOL)hasWhiteBalance;
+- (BOOL)isRecording;
 
 - (BOOL)setupSessionWithPreset:(NSString *)sessionPreset error:(NSError **)error;
 
 - (void)startRunning;
 - (void)stopRunning;
-- (void)captureImageForDeviceOrientation:(UIDeviceOrientation)deviceOrientation;
 
+// Photo
+- (void)capturePhotoForDeviceOrientation:(UIDeviceOrientation)deviceOrientation;
+
+// Video
+- (void)recordVideo;
+- (void)pauseVideo;
+- (void)cancelVideo;
+
+// Focus
 - (void)focusAtPoint:(CGPoint)point;
 - (void)exposureAtPoint:(CGPoint)point;
 - (CGPoint)convertToPointOfInterestFrom:(CGRect)frame coordinates:(CGPoint)viewCoordinates layer:(AVCaptureVideoPreviewLayer *)layer;
+
+// VideoScaleAndCropFactor
+- (void)setCameraMaxScale:(CGFloat)maxScale;
 
 @end
