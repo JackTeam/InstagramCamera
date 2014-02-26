@@ -7,6 +7,38 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
+
+@protocol XHInstagramCameraDelegate <NSObject>
+
+@optional
+// Focus
+- (void)cameraView:(UIView *)camera focusAtPoint:(CGPoint)point;
+- (void)cameraView:(UIView *)camera exposeAtPoint:(CGPoint)point;
+
+// Photo
+- (void)cameraViewCapturePhoto;
+
+// Video
+
+// Camera
+- (void)closeCamera;
+- (void)switchCamera;
+
+// Focus Mode
+
+// Flash Mode
+- (void)triggerFlashForMode:(AVCaptureFlashMode)flashMode;
+
+// Grid View
+- (void)cameraView:(UIView *)camera showGridView:(BOOL)show;
+
+// Scale
+- (CGFloat)cameraMaxScale;
+- (void)cameraCaptureScale:(CGFloat)scaleNum;
+
+
+@end
 
 @interface XHInstagramCamera : UIView
 
