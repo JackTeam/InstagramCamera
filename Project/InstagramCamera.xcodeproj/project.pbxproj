@@ -20,6 +20,7 @@
 		ABE0CCB518BE0A4A00071AE0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABE0CCB318BE0A4A00071AE0 /* InfoPlist.strings */; };
 		ABE0CCB718BE0A4A00071AE0 /* InstagramCameraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE0CCB618BE0A4A00071AE0 /* InstagramCameraTests.m */; };
 		ABE0CCC318BE0AB000071AE0 /* XHInstagramCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE0CCC218BE0AB000071AE0 /* XHInstagramCamera.m */; };
+		ABE0CCC618BE1B7A00071AE0 /* XHInstagramCameraManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE0CCC518BE1B7A00071AE0 /* XHInstagramCameraManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		ABE0CCB618BE0A4A00071AE0 /* InstagramCameraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstagramCameraTests.m; sourceTree = "<group>"; };
 		ABE0CCC118BE0AB000071AE0 /* XHInstagramCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHInstagramCamera.h; sourceTree = "<group>"; };
 		ABE0CCC218BE0AB000071AE0 /* XHInstagramCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHInstagramCamera.m; sourceTree = "<group>"; };
+		ABE0CCC418BE1B7A00071AE0 /* XHInstagramCameraManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHInstagramCameraManager.h; sourceTree = "<group>"; };
+		ABE0CCC518BE1B7A00071AE0 /* XHInstagramCameraManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHInstagramCameraManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +156,8 @@
 			children = (
 				ABE0CCC118BE0AB000071AE0 /* XHInstagramCamera.h */,
 				ABE0CCC218BE0AB000071AE0 /* XHInstagramCamera.m */,
+				ABE0CCC418BE1B7A00071AE0 /* XHInstagramCameraManager.h */,
+				ABE0CCC518BE1B7A00071AE0 /* XHInstagramCameraManager.m */,
 			);
 			name = Source;
 			path = ../Source;
@@ -256,6 +261,7 @@
 				ABE0CCC318BE0AB000071AE0 /* XHInstagramCamera.m in Sources */,
 				ABE0CCA218BE0A4900071AE0 /* AppDelegate.m in Sources */,
 				ABE0CC9E18BE0A4900071AE0 /* main.m in Sources */,
+				ABE0CCC618BE1B7A00071AE0 /* XHInstagramCameraManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
