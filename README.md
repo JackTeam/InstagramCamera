@@ -1,6 +1,6 @@
 ## InstagramCamera
 
-'InstagramCamera' is an iOS camera engine that supports recoder video and photo capture. It is compatible with both iOS 6 and iOS 7. Pause and resume video capture is also possible without having to use a touch button as the sample project provides.
+'InstagramCamera' is an iOS camera engine that supports recoder video and photo capture, base on Instagram App. It is compatible with both iOS 6 and iOS 7. Pause and resume video capture is also possible without having to use a touch button as the sample project provides.
 
 
 ## Installation
